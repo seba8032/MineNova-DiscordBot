@@ -1,0 +1,31 @@
+# ═══════════════════════════════════════════════════════
+# MineNova-AI Discord Bot — Configuration (TEMPLATE)
+# ═══════════════════════════════════════════════════════
+# Copy this file to config.yml and fill in your values.
+# On Railway, set these as environment variables instead.
+
+discord:
+  token: ""
+  channel-id: ""
+  guild-id: ""
+  owner-id: ""
+
+ai:
+  endpoint: "https://generativelanguage.googleapis.com/v1beta/openai"
+  api-key: ""
+  model: "gemini-2.0-flash"
+  max-uses-per-user: 20
+
+tickets:
+  enabled: true
+  welcome-channel-id: ""
+  category-id: ""
+  staff-role-id: ""
+
+automod:
+  enabled: true
+  banned-words: ""
+  allowed-links: "youtube.com,discord.com,github.com,minecraft.net"
+  max-messages: 5
+  spam-window-ms: 3000
+  max-violations: 3

@@ -1,0 +1,26 @@
+# Build
+build/
+.gradle/
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.class
+
+# Runtime
+run/
+*.log
+logs/
+
+# Secrets — NIE wrzucaj na GitHub!
+config.yml
+security/
+*.key
+*.db
+
+# OS
+.DS_Store
+Thumbs.db
