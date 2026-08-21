@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["jdk21", "gradle"]
+
+[phases.install]
+cmds = ["gradle jar --no-daemon"]
+
+[start]
+cmd = "java -jar build/libs/MineNova-DiscordBot-1.0.0.jar"
