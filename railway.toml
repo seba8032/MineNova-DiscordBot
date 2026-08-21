@@ -1,0 +1,5 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "java -jar build/libs/MineNova-DiscordBot-1.0.0.jar"
