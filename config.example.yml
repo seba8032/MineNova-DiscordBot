@@ -13,7 +13,7 @@ discord:
 ai:
   endpoint: "https://generativelanguage.googleapis.com/v1beta/openai"
   api-key: ""
-  model: "gemini-2.0-flash"
+  model: "gemini-3.6-flash"
   max-uses-per-user: 20
 
 tickets:

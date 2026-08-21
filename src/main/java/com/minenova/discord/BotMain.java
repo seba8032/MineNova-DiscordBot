@@ -22,7 +22,7 @@ public class BotMain {
         String token = env("DISCORD_TOKEN", config.getOrDefault("discord.token", ""));
         String aiEndpoint = env("AI_ENDPOINT", config.getOrDefault("ai.endpoint", "https://generativelanguage.googleapis.com/v1beta/openai"));
         String aiKey = env("AI_API_KEY", config.getOrDefault("ai.api-key", ""));
-        String aiModel = env("AI_MODEL", config.getOrDefault("ai.model", "gemini-2.0-flash"));
+        String aiModel = env("AI_MODEL", config.getOrDefault("ai.model", "gemini-3.6-flash"));
         String allowedChannel = env("DISCORD_CHANNEL_ID", config.getOrDefault("discord.channel-id", ""));
         String guildId = env("DISCORD_GUILD_ID", config.getOrDefault("discord.guild-id", ""));
 
