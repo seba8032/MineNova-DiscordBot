@@ -1,0 +1,9 @@
+.git
+.gradle
+.idea
+build
+run
+*.jar
+logs
+security
+config.yml
