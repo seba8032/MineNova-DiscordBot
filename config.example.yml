@@ -29,3 +29,16 @@ automod:
   max-messages: 5
   spam-window-ms: 3000
   max-violations: 3
+
+# ═══════════════════════════════════════════════════════
+# MineNova Website
+# ═══════════════════════════════════════════════════════
+website:
+  url: "https://minenova.eu"
+  name: "MineNova"
+  description: "MineNova — Minecraft server with AI plugins"
+  # Initial price (USD)
+  price-initial: "29.99"
+  # Price after more user interest (USD)
+  price-final: "44.99"
+  currency: "USD"
