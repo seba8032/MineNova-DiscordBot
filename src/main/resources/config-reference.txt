@@ -513,6 +513,14 @@ automod:
   max-violations: 3                 # before timeout
 
 
+## MINENOVA WEBSITE & PRICING
+═══════════════════════════════════════════════════════════════
+Website URL: https://minenova.eu
+Project name: MineNova
+Description: MineNova — Minecraft server with AI plugins
+Initial price: $29.99 USD
+Final price (after more interest): $44.99 USD
+
 ## KEY FEATURES SUMMARY
 ═══════════════════════════════════════════════════════════════
 - Two versions: MineNova-AI (base) and MineNova (with NPC system)
