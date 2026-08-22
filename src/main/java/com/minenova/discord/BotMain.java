@@ -47,7 +47,9 @@ public class BotMain {
         System.out.println("[BotMain] AI key: " + (aiKey.length() > 10 ? aiKey.substring(0, 10) + "..." : "EMPTY"));
         System.out.println("[BotMain] AI owner: " + (ownerId.isEmpty() ? "NONE (no limits)" : ownerId));
         System.out.println("[BotMain] AI max uses/user: " + (maxUsesPerUser == 0 ? "UNLIMITED" : maxUsesPerUser));
-        ChatHandler chatHandler = new ChatHandler(aiService, allowedChannel, ownerId, maxUsesPerUser, loadResource("config-reference.txt"));
+        String configRef = loadResource("config-reference.txt");
+        System.out.println("[BotMain] Config reference loaded: " + configRef.length() + " chars, contains minenova.eu: " + configRef.contains("minenova.eu"));
+        ChatHandler chatHandler = new ChatHandler(aiService, allowedChannel, ownerId, maxUsesPerUser, configRef);
 
         try {
             net.dv8tion.jda.api.JDABuilder builder = net.dv8tion.jda.api.JDABuilder.createDefault(token)
