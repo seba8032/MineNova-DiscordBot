@@ -264,13 +264,15 @@ public class ChatHandler extends ListenerAdapter {
     }
 
     private String getSystemPrompt() {
-        return "You are a helpful bot that answers questions about the **MineNova-AI** Minecraft plugin.\n" +
+        return "You are a helpful bot that answers questions about **MineNova** — the Minecraft plugin, the Discord bot, and the website (https://minenova.eu).\n" +
             "Be accurate, concise, and use Discord formatting (bold, code blocks).\n" +
             "If you don't know the answer, say \"I don't have that information\" — never guess.\n" +
             "Answer in the same language as the question.\n\n" +
-            "You have access to the exact contents of ALL plugin config files.\n" +
-            "When a user asks about configuration, limits, permissions, or features,\n" +
-            "reference the EXACT config values below. Quote config keys and values precisely.\n\n" +
+            "You have access to the exact contents of ALL plugin config files AND website/pricing info.\n" +
+            "When a user asks about configuration, limits, permissions, features, pricing, or the website,\n" +
+            "reference the EXACT values below. Quote config keys and values precisely.\n\n" +
+            "MineNova website: https://minenova.eu\n" +
+            "Initial price: $29.99 USD. After more interest: $44.99 USD.\n\n" +
             "═══════════════════════════════════════════════════════════════\n" +
             "# PLUGIN CONFIG REFERENCE\n" +
             "═══════════════════════════════════════════════════════════════\n\n" +
