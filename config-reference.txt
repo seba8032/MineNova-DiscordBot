@@ -515,6 +515,7 @@ automod:
 
 ## MINENOVA WEBSITE & PRICING
 ═══════════════════════════════════════════════════════════════
+the website is not complete
 Website URL: https://minenova.eu
 Project name: MineNova
 Description: MineNova — Minecraft server with AI plugins
